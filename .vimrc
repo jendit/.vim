@@ -5,7 +5,8 @@ set showbreak=+++				" Wrap-broken line prefix
 set textwidth=100				" Line wrap (number of cols)
 set showmatch					" Highlight matching brace
 set visualbell					" Use visual bell (no beeping)
- 
+set ls=2						" Sow the filename always
+
 set hlsearch					" Highlight all search results
 set smartcase					" Enable smart-case search
 set ignorecase					" Always case-insensitive
@@ -17,6 +18,10 @@ set smartindent					" Enable smart-indent
 set smarttab					" Enable smart-tabs
 set softtabstop=4				" Number of spaces per Tab
    
+filetype on						" File Types
+syntax on						" Syntax
+colorscheme Tomorrow-Night		" Color Scheme
+
 " Advanced
 set ruler						" Show row and column ruler information
     
